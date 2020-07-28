@@ -1,5 +1,5 @@
 body{
-  background-image: url("bgimg.jpg");
+  background-image: url("../assets/bgimg.jpg");
 }
 .font-lg{
   font-size: 3.5rem;
@@ -8,12 +8,35 @@ body{
   font-size: 2rem;
 }
 .profile-size{
-  height: 15vh;
+  height: 25vh;
   border-radius: 5%;
 }
-
+.icon-size-wider{
+  max-height: 30vh;
+  max-width: 100%;
+}
+.icon-size{
+  max-height: 13vh;
+  max-width: 100%;
+}
+.icon-cols{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-size{
+  max-height: 35vh;
+  max-width: 100%;
+}
 .bg-primary-tran{
   background-color: rgba(58, 63, 68, 0.5) !important
+}
+.bg-primary-tran2{
+  background-color: rgba(58, 63, 68, 0.8) !important
+
+}
+.bg-secondary-tran{
+  background-color: rgb(122, 130, 136, 0.8);
 }
 
 li{
