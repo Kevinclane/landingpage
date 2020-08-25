@@ -1,5 +1,33 @@
-body{
+/* body{
   background-image: url("bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+} */
+.bg-img{
+  background-image: url("bgimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-cstm-light{
+ background-color: #11d2ec;
+}
+.bg-cstm-med{
+ background-color: #174995;
+}
+.bg-cstm-dark{
+  background-color: #012b5c;
+}
+.text-cstm-light{
+  color: #11d2ec
+}
+.text-cstm-med {
+  color: #174995
+}
+.text-cstm-dark{
+  color: #012b5c
 }
 .font-lg{
   font-size: 3.5rem;
